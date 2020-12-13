@@ -1,0 +1,159 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+header
+{
+    background-image: url(night.jpg);
+    height: 130vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    padding-left: 850px;
+    list-style: none;
+    margin-top: 30px;
+    position: fixed;
+
+}
+
+.main-nav li
+{
+    display: inline-block;
+
+}
+
+.main-nav li a
+{ 
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+}
+
+.main-nav li a:hover
+
+{
+    border: 1px solid antiquewhite
+}
+
+.banner-text 
+
+{
+    text-align: center;
+    color: antiquewhite ;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.banner-text h1
+
+{
+    font-size: 35px;
+    font-family: 'Space Mono', monospace;
+}
+
+
+.profile-pic
+{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.name
+{
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 60px;
+}
+
+.name h2
+{
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+}
+
+
+.details
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 250px;
+}
+.details-mech
+{
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 30px;
+}
+
+
+.details-mech img
+{
+    height: 150px;
+}
+
+.details-mech h3
+{
+    font-family: 'Space Mono', monospace;
+}
+
+.details-mech h4
+{
+    font-family: 'Space Mono', monospace;
+}
+
+.details-dog
+{
+    text-align: center;
+    color:antiquewhite;
+    padding-top: 30px;
+}
+
+
+.details-dog img
+{
+    height: 150px;
+}
+
+.details-dog h3
+{
+    font-family: 'Space Mono', monospace;
+}
+
+.details-dog h4
+{
+    font-family: 'Space Mono', monospace;
+}
+
+
+.details-trav
+{
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 30px;
+}
+
+
+.details-trav img
+{
+    height: 150px;
+}
+
+.details-trav h3
+{
+    font-family: 'Space Mono', monospace;
+}
+
+.details-trav h4
+{
+    font-family: 'Space Mono', monospace;
+}
